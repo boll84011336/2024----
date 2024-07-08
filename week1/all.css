@@ -1,0 +1,235 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  /* background: darkcyan; */
+}
+
+.content {
+  width: 56%;
+  margin: 0 auto;
+  /* background: gold; */
+}
+
+.title,
+.resume {
+  font-family: Castoro;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 192px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.banner {
+  text-align: center;
+}
+
+.title {
+  text-align: left;
+}
+
+.resume {
+  text-align: right;
+}
+
+.p_tag {
+
+  margin-bottom: 128px;
+}
+
+.p_tag p {
+  width: 636px;
+  margin-left: 650px;
+  font-family: Castoro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+
+.script {
+  width: 636px;
+}
+
+.h6 {
+  font-family: Castoro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  border-bottom: 3px solid #AE0000;
+  color: #AE0000;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+
+.block1 p,
+.block2 p,
+.block3 p,
+.block4 p {
+  font-family: Castoro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.block4 {
+  margin-bottom: 160px;
+}
+
+.years {
+  font-family: Castoro;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #949494;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.icon {
+  width: 74%;
+  margin-left: 824px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.icon img {
+  vertical-align: middle;
+  margin-right: 40px;
+}
