@@ -129,24 +129,27 @@ table {
   border-spacing: 0;
 }
 
-.container {
-  /* background: darkcyan; */
+body {
+  /* serif（襯線字體）， */
+  font-family: "Castoro", serif;
+  line-height: 1.5;
 }
 
-.content {
-  width: 56%;
-  margin: 0 auto;
-  /* background: gold; */
+* {
+  box-sizing: border-box;
 }
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.content {}
 
 .title,
 .resume {
-  font-family: Castoro;
   font-size: 128px;
-  font-weight: 400;
-  line-height: 192px;
   letter-spacing: 0.12em;
-  text-align: left;
 }
 
 .banner {
@@ -155,7 +158,6 @@ table {
 
 .title {
   margin-top: 160px;
-  text-align: left;
 }
 
 .resume {
@@ -163,30 +165,23 @@ table {
 }
 
 .p_tag {
-
+  background-color: #EFEFEF;
   margin-bottom: 128px;
 }
 
 .p_tag p {
   width: 636px;
-  margin-left: 650px;
-  font-family: Castoro;
+  margin-left: auto;
+  /* 不懂為什麼會自動推 */
   font-size: 32px;
-  font-weight: 400;
-  line-height: 48px;
-  text-align: left;
 }
 
 .script {
   width: 636px;
 }
 
-.h6 {
-  font-family: Castoro;
+.h3 {
   font-size: 40px;
-  font-weight: 400;
-  line-height: 60px;
-  text-align: left;
   border-bottom: 3px solid #AE0000;
   color: #AE0000;
   margin-bottom: 16px;
@@ -195,14 +190,19 @@ table {
 
 .block1 p,
 .block2 p,
-.block3 p,
-.block4 p {
-  font-family: Castoro;
+.block3 p {
   font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.block4 p {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.block1 p a {
+  text-decoration: none;
+  color: black;
 }
 
 .block4 {
@@ -213,21 +213,22 @@ table {
   font-family: Castoro;
   font-size: 20px;
   font-style: italic;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
   color: #949494;
 }
 
 .footer {
   background-color: #000000;
+
 }
 
 .icon {
-  width: 74%;
-  margin-left: 824px;
+  margin-left: 40%;
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+.icon ul li {
+  display: inline;
 }
 
 .icon img {
